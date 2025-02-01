@@ -1,7 +1,7 @@
 # ** 💰 BUDGET MANAGER📊  **  
 ## ------ (HTML) Part: Assignment 1 📝 -------
 
-![Project Screenshot](Results/Html_result.png)
+![Project Screenshot](Results/HTML_Result.png)
 
 ## 📌 **Project Overview**  
 This project is part of my internship at **Innomatics Research Labs**. For my initial assignment, I developed a basic **Smart Budgeting and Finance Tracker** using **HTML**. The tool enables users to efficiently track their income 💸 and expenses 💳 by adding transactions and viewing a simple summary.
