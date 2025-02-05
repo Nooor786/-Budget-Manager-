@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💰 Budget Manager 📊</title>
+</head>
+<body>
+    <center
+    <header>
+        <h1>  💰 𝔹𝕦𝕕𝕘𝕖𝕥   𝕄𝕒𝕟𝕒𝕘𝕖𝕣 📊 </h1>
+        <nav>
+            <a href="#add-entry">➕ Add Entry</a> | 
+            <a href="#budget-summary">📜 Summary</a>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>💡 Mₐₙₐgₑ Yₒᵤᵣ Fᵢₙₐₙcₑₛ Wᵢₛₑₗy </h2>
+        <p>Track your income and expenses efficiently with this tool.</p>
+        <blockquote>"Do not save what is left after spending, but spend what is left after saving." - Warren Buffett</blockquote>
+    </section>
+    
+    <hr>
+    
+    <section id="add-entry">
+        <h2>📥 𝓐𝓭𝓭 𝓝𝓮𝔀 𝓔𝓷𝓽𝓻𝔂 </h2>
+        <form>
+            <label for="amount">💲 Amount:</label>
+            <input type="number" id="amount" name="amount" required><br><br>
+            
+            <label for="category">📌 Category:</label>
+            <select id="category" name="category">
+                <option value="Food">🍔 Food</option>
+                <option value="Transport">🚗 Transport</option>
+                <option value="Leisure">🎉 Leisure</option>
+                <option value="Income">💵 Income</option>
+                <option value="Savings">🏦 Savings</option>
+                <option value="Utilities">💡 Utilities</option>
+                <option value="Rent">🏠 Rent</option>
+            </select><br><br>
+            
+            <label for="description">📝 Details:</label>
+            <input type="text" id="description" name="description" required><br><br>
+            
+            <label for="date">📅 Date:</label>
+            <input type="date" id="date" name="date" value="2025-02-01" required><br><br>
+            
+            <label>🔄 Type:</label>
+            <input type="radio" name="type" value="Income" required> 💰 Income
+            <input type="radio" name="type" value="Expense"> 💸 Expense<br><br>
+            
+            <button type="submit">✅ Submit</button>
+        </form>
+    </section>
+    
+    <hr>
+    
+    <section id="budget-summary">
+        <h2>📜 𝓢𝓾𝓶𝓶𝓪𝓻𝔂 </h2>
+        <table border="1">
+            <tr>
+                <th>📌 Category</th>
+                <th>💲 Amount</th>
+                <th>📝 Details</th>
+                <th>📅 Date</th>
+                <th>🔄 Type</th>
+                <th>⚙️ Actions</th>
+            </tr>
+            <tr>
+                <td>🍔 Food</td>
+                <td>$200</td>
+                <td>Weekly groceries</td>
+                <td>2025-02-01</td>
+                <td>💸 Expense</td>
+                <td><button>✏️ Edit</button> <button>❌ Delete</button></td>
+            </tr>
+            <tr>
+                <td>💵 Income</td>
+                <td>$3000</td>
+                <td>Salary</td>
+                <td>2025-02-01</td>
+                <td>💰 Income</td>
+                <td><button>✏️ Edit</button> <button>❌ Delete</button></td>
+            </tr>
+        </table>
+        <p>💡 Tip: Always track your small expenses! They add up over time.</p>
+        
+    </section>
+    
+    <hr>
+    
+    <footer>
+        <p>📊 Budget Manager - Version 1.0 | Made with "Ⓝ" </p>
+    </footer>
+</body>
+</html>
